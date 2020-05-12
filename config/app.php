@@ -177,6 +177,7 @@ return [
 
         Teepluss\Theme\ThemeServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        App\Providers\CommonFuncServiceProvider::class,
 
     ],
 
@@ -231,6 +232,7 @@ return [
 
         'Theme' => Teepluss\Theme\Facades\Theme::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'CommonFunc' => App\Facades\CommonFunc::class,
     ],
 
 ];
