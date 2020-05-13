@@ -57,6 +57,13 @@ class LoginController extends BaseController
         }
     }
 
+    public function loggedOut(Request $request)
+    {
+
+
+        return redirect('/manage/login');
+    }
+
 
     public function username()
     {

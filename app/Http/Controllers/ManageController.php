@@ -23,8 +23,8 @@ class ManageController extends BaseController
         $this->middleware(['permission:' . $routeName]);
         $this->setManager();
         $this->setTheme('manage', 'manage_base');
-        $this->setBreadCrumbs();
-        $this->setSideBar();
+//        $this->setBreadCrumbs();
+//        $this->setSideBar();
     }
 
     public function setManager()

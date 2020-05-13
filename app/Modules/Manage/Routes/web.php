@@ -10,7 +10,7 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-Route::get('/manage/login', 'LoginController@showLoginForm')->name('login');
+Route::get('/manage/login', 'LoginController@showLoginForm')->name('showLogin');
 Route::post('/manage/login', 'LoginController@postLogin')->name('login');
 Route::get('/manage/logout', 'LoginController@logout')->name('login');
 Route::group(['prefix' => 'manage'], function () {
